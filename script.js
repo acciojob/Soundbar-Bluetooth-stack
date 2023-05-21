@@ -1,11 +1,11 @@
 //your JS code here. If required.
-const but = document.querySelectorAll(".sound");
+const but = document.querySelectorAll(".btn");
 
 for(let i=0; i<but.length; i++){
   but[i].addEventListener('click', function(){
     let key = this.innerHTML;
     makeSound(key);
-	  alert(key);
+	  // alert(key);
   })
 }
 
@@ -35,8 +35,8 @@ function makeSound(keys){
     aud.play();
   }
   else if(keys === "stop"){
-    let aud = new Audio('sounds/stop.mp3');
-    aud.play();
+    // let aud = new Audio('sounds/stop.mp3');
+    aud.pause();
   }
   
 }
