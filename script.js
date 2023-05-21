@@ -11,28 +11,28 @@ for(let i=0; i<but.length; i++){
 
 function makeSound(keys){
   if(keys === "applause"){
-    let audio = new Audio('sounds/applause.wav');
+    let audio = new Audio('sounds/applause.mp3');
     audio.play();
 	  // alert('cli');
   }
   else if(keys === "bao"){
-    let audio = new Audio('sounds/bao.wav');
+    let audio = new Audio('sounds/bao.mp3');
     audio.play();
   }
   else if(keys === "gasp"){
-    let audio = new Audio('sounds/gasp.wav');
+    let audio = new Audio('sounds/gasp.mp3');
     audio.play();
   } 
   else if(keys === "tada"){
-    let audio = new Audio('sounds/tada.wav');
+    let audio = new Audio('sounds/tada.mp3');
     audio.play();
   }
   else if(keys === "victory"){
-    let audio = new Audio('sounds/victory.wav');
+    let audio = new Audio('sounds/victory.mp3');
     audio.play();
   }
   else if(keys === "wrong"){
-    let audio = new Audio('sounds/wrong.wav');
+    let audio = new Audio('sounds/wrong.mp3');
     audio.play();
   }
   else if(keys === "stop"){
