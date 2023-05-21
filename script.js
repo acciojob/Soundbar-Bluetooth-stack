@@ -4,14 +4,14 @@ const but = document.querySelectorAll(".btn");
 for(let i=0; i<but.length; i++){
   but[i].addEventListener('click', function(){
     let key = this.innerHTML;
-    makeSound(key);
+    PlayingAudio(key);
 	  // alert(key);
   })
 }
 
-function makeSound(keys){
+function PlayingAudio(keys){
   if(keys === "applause"){
-    let audio = new Audio('sounds/applause.mp3');
+    let audio = new Audio('sounds/music_1.mp3');
     audio.play();
 	  // alert('cli');
   }
