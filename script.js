@@ -11,7 +11,7 @@ for(let i=0; i<but.length; i++){
 
 function PlayingAudio(keys){
   if(keys === "applause"){
-    let audio = new Audio('sounds/music_1.mp3');
+    let audio = new Audio('sounds/applause.mp3');
     audio.play();
 	  // alert('cli');
   }
