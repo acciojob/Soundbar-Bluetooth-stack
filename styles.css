@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+body{
+	background:rgb(247, 99, 247);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.set{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.set button{
+	border: none;
+	background: rgb(199, 9, 199);
+	color: white;
+	padding: 20px;
+}
